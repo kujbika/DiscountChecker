@@ -1,6 +1,7 @@
 """Main module."""
 import scrapy
-
+# based on https://www.digitalocean.com/community/tutorials/how-to-crawl-a-web-page-with-scrapy-and-python-3
+# to run the code type <conda run scrapy runspider discountchecker.py> into cmder 
 
 class BrickSetSpider(scrapy.Spider):
     # change the log type at parent class
